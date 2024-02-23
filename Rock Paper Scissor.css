@@ -1,0 +1,52 @@
+body{
+  background-color:black;
+}
+/* Heading Style*/
+.c-1{
+  font-family:arial;
+  color:white;
+  font-size:60px;
+  margin-bottom:50px;
+}
+/* Rock Paper Scissor Button Style */
+.alpha{
+  border-radius:50%;
+  border:5px solid white;
+  background-color:transparent;
+  height:200px;
+  width:200px;
+  margin-right:20px;
+  cursor:pointer;
+}
+.alpha:hover{
+  background-color:rgb(53, 50, 50);
+}
+.alpha:active{
+  background-color:red;
+}
+
+
+/* Dynamic Score Card Style */
+.beta{
+  height:70px;
+  width:70px;
+}
+.class-1{
+  color:white;
+  font-family:arial;
+  font-size:40px;
+}
+/* Score Reset Button Style */
+.X-button{
+  border:none;
+  background-color:rgb(31, 29, 29);
+  color:white;
+  transition: background-color 0.25s, color 0.25s;
+  font-family:arial;
+  font-size:30px;
+  padding:20px;
+}
+.X-button:hover{
+  background-color:white;
+  color:rgb(31, 29, 29);
+}

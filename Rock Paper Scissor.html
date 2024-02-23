@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissor</title>
+  <link rel="stylesheet" href="Rock Paper Scissor.css">
+</head>
+<body>
+
+  <marquee class="c-1" >Rock Paper Scissor (Web GAME!)</marquee>
+  <!--Buttons-->
+  <button  title="Rock Button" onclick="userMove('Rock');" class="alpha"><img src="RPC images/Rock.png" class="beta"></button>
+  <button title="Paper Button" onclick="userMove('Paper');"class="alpha"><img src="RPC images/Paper.png" class="beta"></button>
+  <button title="Scissor Button" onclick="userMove('Scissor');" class="alpha"><img src="RPC images/Scissor.png" class="beta"></button>
+
+  <!--Dynamic Score Cards-->
+
+  <p id="results" class="class-1"></p>
+  <p id="results-detail" class="class-1"></p>
+  <p id="finall" class="class-1"></p>
+
+
+<!--Score Reset Button-->
+  <button onclick="resetting();" class="X-button">Reset Score</button>
+
+</body>
+<script src="Rock Paper Scissor.js"></script>
+</html>
